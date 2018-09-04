@@ -10,7 +10,7 @@ Resource  ../Resources/Common.robot
 *** Test Cases ***
 User must sign in to check out
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke  Products
+    [Tags]  Smoke  Products  Other
     Common.Begin Web Test
     Amazon.Search for Products
     Amazon.Select Product from Search Results
